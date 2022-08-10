@@ -1,0 +1,28 @@
+body{
+    background-color: #6F6F72;
+    text-align: justify;
+    padding: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    text-align: center;
+    background-color:#080866;
+    color: white;
+}
+.basico{
+    color: #3ca127;
+}
+.intermediario{
+    color: #94a30d;
+}
+.avançado{
+    color: #ec2121;
+}
+
+h1{
+    color: #1212E6;
+    text-align: center;
+}
+p{
+    color: black;
+}
