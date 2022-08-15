@@ -1,0 +1,32 @@
+header{
+  background-color: black;
+  color: white;
+  height: 140px;
+  margin-top: -20px;
+  padding-top: 20px;
+  text-align: center;
+}
+#branco{
+  height: 400px;
+  border: 1px;
+  border: solid 1px;
+  padding-left: 10px;
+  
+}
+#imagem{
+  height: 400px;
+  border: 1px;
+  border: solid 1px;
+  padding-left: 10px;
+}
+
+#imagem > p{
+  background-color: rgba(0, 0, 0, 0.281);
+  color: white;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
