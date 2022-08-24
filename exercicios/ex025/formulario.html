@@ -7,29 +7,52 @@
   <title>Formulários</title>
 </head>
 <body>
-  <form action="cadastro.php" method="post" autocomplete="on">
-    <p><label for="inome">Nome</label>:
-      <input type="text" name="nome" id="inome" maxlength="15" minlength="3" required>
-    </p>
+  <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
 
-    <p><label for="isobrenome">Sobrenome</label>:
-      <input type="text" name="sobrenome" id="isobrenome" maxlength="25" minlength="3" required>
-    </p>
-    <p>
-      <label for="isenha">senha</label>:
-      <input type="password" name="senha" id="isenha" maxlength="15" minlength="7" required>
-    </p>
-    <p>
-      <label for="idata">data</label>:
-      <input type="date" name="data" id="idata" required>
-    </p>
+      <legend>Dados</legend>
 
+      <p><label for="inome">Nome</label>:
+        <input type="text" name="nome" id="inome" maxlength="15" minlength="3" required>
+      </p>
+
+      <p><label for="isobrenome">Sobrenome</label>:
+        <input type="text" name="sobrenome" id="isobrenome" maxlength="25" minlength="3" required>
+      </p>
+
+      <p>
+        <label for="isenha">senha</label>:
+        <input type="password" name="senha" id="isenha" maxlength="15" minlength="7" required>
+      </p>
+
+      <p>
+        <label for="idata">data</label>:
+        <input type="date" name="data" id="idata" required>
+      </p>
+
+      
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Sexo</legend>
+
+      <p>
+        <label for="isxmas">Masculino</label>
+        <input type="radio" name="sexo" id="isxmas" value="M" required>
+      </p>
+
+      <p>
+        <label for="isxfem">Feminino</label>
+        <input type="radio" name="sexo" id="iscfem" value="F" required>
+      </p>
+
+    </fieldset>
     <p>
       <input type="submit" value="Enviar">
       <input type="reset" value="Limpar">
     </p>
-
-
+    
   </form>
 </body>
 </html>
